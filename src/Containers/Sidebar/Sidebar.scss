@@ -4,7 +4,42 @@
     left: 0;
     height: 100vh;
     min-height: 100vh;
-    width: 50px;
+    width: 104px;
     background: #1F1D2B;
     border-radius: 0 16px 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // padding-bottom?: 20px;
+    align-items: center;
+}
+
+.sidebar-icons{
+    display: block;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    padding: 12px;
+    background: #EA7C69;
+    box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
+    border-radius: 8px;
+    fill: white;
+    margin-bottom: 20px;
+
+    &:hover{
+        padding: 11px;
+        background-color: #fff;
+    }
+}
+
+.sidebar-logo{
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+    padding: 11px;
+    background: #2D303E;
+    border: 1px solid #393C49;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: block;
 }
