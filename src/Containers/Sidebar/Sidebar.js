@@ -16,7 +16,13 @@ const Sidebar = () => {
     return(
         <div className="sidebar">
             <MainLogo/>
-           <h1>Sidebar</h1>
+            <HomeIcon/>
+            <DiscountIcon/>
+            <PieChartIcon/>
+            <MailIcon/>
+            <BillIcon/>
+            <SettingsIcon/>
+            <ExitIcon/>
         </div>
     )
 }
