@@ -1,7 +1,15 @@
-import './Assets/styles/App.scss';
+import { Homepage, Pop, Dashboard, Settings } from "./Pages";
+
+import "./Assets/styles/App.scss";
+
 function App() {
   return (
-    <h1>hello</h1>    
+    <div>
+      <Homepage/>
+      <Pop/>
+      <Dashboard/>
+      <Settings/>
+    </div>
   );
 }
 
