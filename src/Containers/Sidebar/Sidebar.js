@@ -1,7 +1,12 @@
+import './Sidebar.scss'
+
 const Sidebar = () => {
 
     return(
-        <h1>Sidebar</h1>
+        <div className="sidebar">
+
+            <h1>Sidebar</h1>
+        </div>
     )
 }
 

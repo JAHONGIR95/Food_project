@@ -1,4 +1,9 @@
-import { Homepage, Pop, Dashboard, Settings } from "./Pages";
+import { 
+  Homepage,
+  // Pop,
+  // Dashboard,
+  // Settings
+ } from "./Pages";
 
 import "./Assets/styles/App.scss";
 
@@ -6,9 +11,9 @@ function App() {
   return (
     <div>
       <Homepage/>
-      <Pop/>
-      <Dashboard/>
-      <Settings/>
+      {/* <Pop/> */}
+      {/* <Dashboard/> */}
+      {/* <Settings/> */}
     </div>
   );
 }

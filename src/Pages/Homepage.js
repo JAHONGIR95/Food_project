@@ -1,8 +1,14 @@
+import Sidebar from '../Containers/Sidebar/Sidebar';
+import MainSection from '../Containers/MainSection/MainSection';
+
 import './Pages.scss';
 
 const Homepage = () => {
     return (
-        <h1>Homepage</h1>
+        <div className="homepage">
+            <Sidebar/>
+            <MainSection/>
+        </div>
     )
 }
 
