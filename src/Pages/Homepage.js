@@ -1,11 +1,10 @@
-
+import Header from '../Containers/Header/Header';
 import './Pages.scss';
 
 const Homepage = () => {
     return (
         <div className="homepage">  
-            <h1>Homepage</h1>
-        
+            <Header headerName="Jaegar Resto" headerDate="Tuesday, 2 Feb 2021"/>
         </div>
     )
 }
