@@ -1,30 +1,16 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
-
-import { 
-  Homepage,
-  Pop,
-  Dashboard,
-  Settings
- } from "./Pages";
-
+import { BrowserRouter } from 'react-router-dom'
 import Sidebar from '../src/Containers/Sidebar/Sidebar';
-
+import MainSection from './Containers/MainSection/MainSection';
 import "./Assets/styles/App.scss";
 
 function App() {
   return (
-
-    <Router>
+    <BrowserRouter>
+    <div className="app-js">
       <Sidebar />
-      <div className="app-js">
-
-      <Switch>
-
-        <Route path="/pop" component={Dashboard} />
-      </Switch>
-      </div>
-    </Router>
+      <MainSection />
+    </div>
+    </BrowserRouter>
   );
 }
 

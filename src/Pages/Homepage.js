@@ -1,9 +1,3 @@
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-
-import Dashboard from './Dashboard';
-// import Sidebar from '../Containers/Sidebar/Sidebar';
-
-import MainSection from '../Containers/MainSection/MainSection';
 
 import './Pages.scss';
 

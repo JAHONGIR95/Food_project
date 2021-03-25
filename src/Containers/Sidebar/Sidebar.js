@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import {
     MainLogo,
@@ -18,13 +18,12 @@ const Sidebar = () => {
     return(
         <div className="sidebar">
             <MainLogo/>
-            <Link to="/pop"><HomeIcon/></Link>
-            
+            <Link to="/"><HomeIcon/></Link>
             <DiscountIcon/>
-            <PieChartIcon/>
+            <Link to="/dashboard"><PieChartIcon/></Link>
             <MailIcon/>
             <BillIcon/>
-            <SettingsIcon/>
+            <Link to="/settings"><SettingsIcon/></Link>
             <ExitIcon/>
         </div>
     )
