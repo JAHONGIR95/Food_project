@@ -2,7 +2,10 @@ import './Pages.scss';
 
 const Pop = () => {
     return (
-        <h1>Pop</h1>
+        <div className="pop">
+
+            <h1>Pop</h1>
+        </div>
     )
 }
 

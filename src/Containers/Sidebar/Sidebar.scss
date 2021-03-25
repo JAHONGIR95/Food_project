@@ -25,11 +25,11 @@
     border-radius: 8px;
     fill: white;
     margin-bottom: 20px;
+    transition: all ease .5s;
 
-    // &:hover{
-    //     padding: 11px;
-    //     background-color: #fff;
-    // }
+    &:hover{
+        opacity: .6;
+    }
 }
 
 .sidebar-logo{
