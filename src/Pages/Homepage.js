@@ -1,3 +1,5 @@
+// import { Link } from 'react-router-dom';
+
 import Header from '../Containers/Header/Header';
 import Navbar from '../Containers/Navbar/Navbar';
 import Select from '../Components/Extras/Select';
@@ -18,6 +20,13 @@ const Homepage = () => {
                     <Select/>
                 </div>
                 <div className="meal-card-section">
+                    <MealCard mealPhoto={MealPhoto} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.29" mealLeft="20 Bowls available"/>
+                    <MealCard mealPhoto={MealPhoto} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.29" mealLeft="20 Bowls available"/>
+                    <MealCard mealPhoto={MealPhoto} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.29" mealLeft="20 Bowls available"/>
+                    <MealCard mealPhoto={MealPhoto} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.29" mealLeft="20 Bowls available"/>
+                    <MealCard mealPhoto={MealPhoto} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.29" mealLeft="20 Bowls available"/>
+                    <MealCard mealPhoto={MealPhoto} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.29" mealLeft="20 Bowls available"/>
+                    <MealCard mealPhoto={MealPhoto} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.29" mealLeft="20 Bowls available"/>
                     <MealCard mealPhoto={MealPhoto} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.29" mealLeft="20 Bowls available"/>
                 </div>
             </div> 

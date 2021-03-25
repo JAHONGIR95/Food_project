@@ -30,7 +30,7 @@
     align-items: center;
     padding: 0 24px;
     width: calc(100% - 50px);
-    margin-bottom: 24px;
+    margin-bottom: 34px;
 
     &-title{
         font-style: normal;
@@ -44,6 +44,9 @@
 
 .meal-card-section{
     padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .dashboard{
