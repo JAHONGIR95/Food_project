@@ -4,10 +4,10 @@ const Select = () => {
     return (
         <div className="select">
             <select name="#" id="#">
-                <option value="One"></option>
-                <option value="Two"></option>
-                <option value="Three"></option>
-                <option value="Four"></option>
+                <option value="One">Dine in</option>
+                <option value="Two">One</option>
+                <option value="Three">Two</option>
+                <option value="Four">Three</option>
             </select>
         </div>
     )
