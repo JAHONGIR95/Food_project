@@ -1,4 +1,6 @@
-import {Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
+import Dashboard from './Dashboard';
 
 import Sidebar from '../Containers/Sidebar/Sidebar';
 import MainSection from '../Containers/MainSection/MainSection';
@@ -13,9 +15,7 @@ const Homepage = () => {
                 <Sidebar/>
 
                 <Switch>
-                    <Route>
-                        
-                    </Route>
+                    <Route path="/pop" component={Dashboard} />
                 </Switch>
                 <MainSection/>
             </Router>

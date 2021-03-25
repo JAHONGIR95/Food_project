@@ -1,11 +1,25 @@
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
+import Dashboard from '../MainSection/MainSection';
+import Sidebar from '../Sidebar/Sidebar';
+
+
 import './MainSection.scss';
 
 const MainSection = () => {
     return (
-        <div className="main-section">
+        
+        <Router>
+            <div className="main-section">
+                <Sidebar/>
 
-            <h1>MainSection</h1>
-        </div>
+                <Switch>
+                    <Route path="/pop" component={Dashboard} />
+                </Switch>
+                <MainSection/>
+            </div>
+        </Router>
+
     )
 }
 
