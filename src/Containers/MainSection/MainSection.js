@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 import { Homepage, Dashboard, Settings } from "../../Pages";
 
@@ -6,7 +6,6 @@ import "./MainSection.scss";
 
 const MainSection = () => {
   return (
-    <Router>
       <div className=".main-section">
         <Switch>
           <Route exact path="/" component={Homepage} />
@@ -14,7 +13,6 @@ const MainSection = () => {
           <Route path="/settings" component={Settings} />
         </Switch>
       </div>
-    </Router>
   );
 };
 
