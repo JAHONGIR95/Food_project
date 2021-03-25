@@ -9,9 +9,18 @@
     height: 100%;
 }
 
-.homepage-right{
-    width: 420px;
+.homepage{
+    display: flex;
+    justify-content: space-between;
 
+    .homepage-main{
+        width: calc(100% - 420px);
+    }
+
+    .homepage-right{
+        width: 420px;
+        background: #1F1D2B;
+    }
 }
 
 .dashboard{

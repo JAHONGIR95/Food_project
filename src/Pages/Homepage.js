@@ -8,7 +8,7 @@ const Homepage = () => {
                 <Header headerName="Jaegar Resto" headerDate="Tuesday, 2 Feb 2021"/>
             </div> 
             <div className="homepage-right">
-                
+                dkfkdjfk
             </div>
         </div>
     )
