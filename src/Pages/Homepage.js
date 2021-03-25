@@ -3,8 +3,13 @@ import './Pages.scss';
 
 const Homepage = () => {
     return (
-        <div className="homepage">  
-            <Header headerName="Jaegar Resto" headerDate="Tuesday, 2 Feb 2021"/>
+        <div className="homepage"> 
+            <div className="homepage-main">
+                <Header headerName="Jaegar Resto" headerDate="Tuesday, 2 Feb 2021"/>
+            </div> 
+            <div className="homepage-right">
+                
+            </div>
         </div>
     )
 }

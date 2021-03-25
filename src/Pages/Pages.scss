@@ -2,11 +2,16 @@
 .pop,
 .homepage,
 .settings {
-    padding-left: 50px;
+    padding-left: 20px;
     box-sizing: border-box;
     background-color: #252836;
     width: 100%;
     height: 100%;
+}
+
+.homepage-right{
+    width: 420px;
+
 }
 
 .dashboard{
