@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 import {
     MainLogo,
     HomeIcon,
@@ -16,7 +18,8 @@ const Sidebar = () => {
     return(
         <div className="sidebar">
             <MainLogo/>
-            <HomeIcon/>
+            <Link to="/pop"><HomeIcon/></Link>
+            
             <DiscountIcon/>
             <PieChartIcon/>
             <MailIcon/>
