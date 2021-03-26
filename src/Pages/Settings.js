@@ -31,14 +31,19 @@ const Settings = () => {
                 <SettingsOptions icons={<About/>} optionsTitle="Appereance" optionsDiscreption="Dark and Light mode, Font size"/>
                 </div>
                 <div className="settings-main-right">
-                    <Header headerName="Products Management"/>
-                    <Navbar/>
+                        <Header headerName="Products Management"/>
+                        <Navbar/>
                     <div className="settings-middle">
-                    <MealCard1/>
-                    <MealCard2 mealPhoto={Meal} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.69 ~ 20 Bowls" />
+                        <MealCard1/>
+                        <MealCard2 mealPhoto={Meal} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.69 ~ 20 Bowls" />
+                        <MealCard2 mealPhoto={Meal} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.69 ~ 20 Bowls" />
+                        <MealCard2 mealPhoto={Meal} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.69 ~ 20 Bowls" />
+                        <MealCard2 mealPhoto={Meal} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.69 ~ 20 Bowls" />
+                        <MealCard2 mealPhoto={Meal} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.69 ~ 20 Bowls" />
                     </div>
                     <div className="settings-bottom">
-
+                            <button className="primary">Discard Changes</button>
+                            <button className="secondary">Save Changes</button>
                     </div>
                 </div>
             </div>

@@ -80,6 +80,44 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                overflow-y: scroll;
+                height: 475px;
+
+                &::-webkit-scrollbar{
+                    display: none;
+                }
+            }
+
+            .settings-bottom{
+                padding: 48px 24px 24px;
+
+                .primary,
+                .secondary {
+                    background: #1F1D2B;
+                    border-radius: 8px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 140%;
+                    color: #EA7C69;
+                    padding: 13px 43px;
+                    border: none;
+                    border: 1px solid #EA7C69;
+                    cursor: pointer;
+
+                    &:focus{
+                        outline: none;
+                    }
+                }
+
+                .primary{
+                    margin-right: 8px;
+                }
+
+                .secondary{
+                    background-color: #EA7C69;
+                    color: #FAFAFA;
+                }
             }
         }
     }
