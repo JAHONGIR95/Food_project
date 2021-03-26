@@ -5,6 +5,7 @@ import Navbar from '../Containers/Navbar/Navbar';
 import Select from '../Components/Extras/Select';
 import MealCard from '../Components/MealCard/MealCard';
 import Search from '../Components/Extras/Search';
+import Booking from '../Containers/Booking/Booking';
 
 import MealPhoto from '../Assets/images/meal1.png';
 
@@ -49,6 +50,8 @@ const Homepage = () => {
                     </div>
                 </div>
                 
+                <Booking/>
+
             </div>
         </div>
     )
