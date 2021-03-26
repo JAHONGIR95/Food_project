@@ -4,6 +4,7 @@ import Header from '../Containers/Header/Header';
 import Navbar from '../Containers/Navbar/Navbar';
 import Select from '../Components/Extras/Select';
 import MealCard from '../Components/MealCard/MealCard';
+import Search from '../Components/Extras/Search';
 
 import MealPhoto from '../Assets/images/meal1.png';
 
@@ -13,7 +14,10 @@ const Homepage = () => {
     return (
         <div className="homepage"> 
             <div className="homepage-main">
-                <Header headerName="Jaegar Resto" headerDate="Tuesday, 2 Feb 2021"/>
+                <div className="header1">
+                    <Header headerName="Jaegar Resto" headerDate="Tuesday, 2 Feb 2021"/>
+                    <Search/>
+                </div>
                 <Navbar/>
                 <div className="selection">
                     <h3 className="selection-title">Choose Dishes</h3>

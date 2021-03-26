@@ -8,9 +8,7 @@ const Header = ({ headerName, headerDate}) => {
             <div className="header-left">
                 <h2 className="header-name">{headerName}</h2>
                 <p className="header-date">{headerDate}</p>
-            </div>
-
-            <Search/>           
+            </div>        
         </div>
     )
 }

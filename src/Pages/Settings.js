@@ -19,7 +19,9 @@ import './Pages.scss';
 const Settings = () => {
     return (
         <div className="settings">
+            <div className="header1">
             <Header headerName="Settings"/>
+            </div>
             <div className="settings-main">
                 <div className="settings-main-left">
                 <SettingsOptions icons={<Heart/>} optionsTitle="Appereance" optionsDiscreption="Dark and Light mode, Font size"/>
@@ -31,7 +33,7 @@ const Settings = () => {
                 <SettingsOptions icons={<About/>} optionsTitle="Appereance" optionsDiscreption="Dark and Light mode, Font size"/>
                 </div>
                 <div className="settings-main-right">
-                        <Header headerName="Products Management"/>
+                        <div className="header">Products Management</div>
                         <Navbar/>
                     <div className="settings-middle">
                         <MealCard1/>
