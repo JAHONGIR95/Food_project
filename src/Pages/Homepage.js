@@ -48,6 +48,7 @@ const Homepage = () => {
                         <p className="item">Price</p>
                     </div>
                 </div>
+                
             </div>
         </div>
     )
