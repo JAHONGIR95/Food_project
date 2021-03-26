@@ -1,7 +1,10 @@
+import './extra.scss';
+
 const SettingsOptions = ({icons, optionsTitle, optionsDiscreption}) => {
+    console.log(icons)
     return (
         <div className="settings-options">
-            <img src={icons} alt=""/>
+            <div className="blin">{icons}</div>
             <div className="settings-options-right">
                 <p className="options-title">{optionsTitle}</p>
                 <p className="options-discreption">{optionsDiscreption}</p>

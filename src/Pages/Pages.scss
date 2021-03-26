@@ -51,7 +51,13 @@
 
 // Settings card 
 
+.settings{
 
+    &-main{
+
+        padding: 24px;
+    }
+}
 
 .dashboard{
     width: 100%;
