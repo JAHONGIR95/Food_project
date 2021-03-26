@@ -46,15 +46,51 @@
     }
 }
 
+// settings options
+
+.settings-options{
+    display: flex;
+    align-items: flex-start;
+    padding: 24px;
+
+    &:hover{
+        background: rgba(234, 124, 105, 0.26);
+    }
+
+    &:hover .settings-icons{
+        fill: #EA7C69;
+    }
+    
+    &:hover .options-title{
+        color: #EA7C69;
+
+    }
+
+    &-right{
+
+        .options-title{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 130%;
+            color: #FFFFFF;
+        }
+
+        .options-discreption{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 140%;
+            color: #ABBBC2;
+        }
+    }
+}
+
 .settings-icons{
     width: 14px;
     height: 14px;
     object-fit: cover;
-    fill: yellow;
+    fill: #ABBBC2;
     display: block;
-}
-
-.icons{
-    display: block;
-    fill: #fff
+    margin-right: 9px;
 }

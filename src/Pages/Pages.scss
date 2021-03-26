@@ -53,9 +53,16 @@
 
 .settings{
 
-    &-main{
+    .settings-main{
 
-        padding: 24px;
+        margin: 0 24px;
+
+        &-left{
+            width: 275px;
+            background: #1F1D2B;
+            border-radius: 8px;
+            overflow: hidden;
+        }
     }
 }
 
