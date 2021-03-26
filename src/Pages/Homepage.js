@@ -35,7 +35,19 @@ const Homepage = () => {
                 </div>
             </div> 
             <div className="homepage-right">
-                dkfkdjfk
+                <p className="order">Orders #34562</p>
+                <div className="btn-line">
+                    <button className="full-btn">Dine In</button>
+                    <button className="empty-btn">To Go</button>
+                    <button className="empty-btn">Delivery</button>
+                </div>
+                <div className="data-title-line">
+                    <p className="item">Item</p>
+                    <div className="data-right">
+                        <p className="item">Qty</p>
+                        <p className="item">Price</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
