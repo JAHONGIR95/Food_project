@@ -8,6 +8,7 @@ import Search from '../Components/Extras/Search';
 import Booking from '../Containers/Booking/Booking';
 
 import MealPhoto from '../Assets/images/meal1.png';
+// import Image from '../Assets/images/icons/'
 
 import './Pages.scss';
 
@@ -49,8 +50,8 @@ const Homepage = () => {
                         <p className="item">Price</p>
                     </div>
                 </div>
-                
-                <Booking/>
+                 
+                <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
 
             </div>
         </div>
