@@ -56,12 +56,28 @@
     .settings-main{
 
         margin: 0 24px;
+        display: flex;
+        justify-content: space-between;
 
         &-left{
-            width: 275px;
+            min-width: 275px;
             background: #1F1D2B;
             border-radius: 8px;
             overflow: hidden;
+            padding-bottom: 50px;
+            margin-right: 24px;
+            margin-bottom: 40px;
+        }
+
+        &-right{
+            width: 100%;
+            background: #1F1D2B;
+            border-radius: 8px; 
+            margin-bottom: 40px;
+
+            .settings-middle{
+                padding: 0 24px;
+            }
         }
     }
 }

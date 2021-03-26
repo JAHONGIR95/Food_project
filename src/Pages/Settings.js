@@ -1,5 +1,8 @@
 import Header from '../Containers/Header/Header';
+import Navbar from '../Containers/Navbar/Navbar';
 import SettingsOptions from '../Components/Extras/Settings-options';
+import MealCard1 from '../Components/MealCard/MealCard1';
+
 import {
     Heart,
     Restaurant, 
@@ -25,7 +28,16 @@ const Settings = () => {
                 <SettingsOptions icons={<Security/>} optionsTitle="Appereance" optionsDiscreption="Dark and Light mode, Font size"/>
                 <SettingsOptions icons={<About/>} optionsTitle="Appereance" optionsDiscreption="Dark and Light mode, Font size"/>
                 </div>
-                <div className="settings-main-right"></div>
+                <div className="settings-main-right">
+                    <Header headerName="Products Management"/>
+                    <Navbar/>
+                    <div className="settings-middle">
+                    <MealCard1/>
+                    </div>
+                    <div className="settings-bottom">
+
+                    </div>
+                </div>
             </div>
         </div>
     )
