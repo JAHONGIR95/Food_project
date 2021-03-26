@@ -2,6 +2,8 @@ import Header from '../Containers/Header/Header';
 import Navbar from '../Containers/Navbar/Navbar';
 import SettingsOptions from '../Components/Extras/Settings-options';
 import MealCard1 from '../Components/MealCard/MealCard1';
+import MealCard2 from '../Components/MealCard/MealCard2';
+import Meal from '../Assets/images/meal1.png';
 
 import {
     Heart,
@@ -33,6 +35,7 @@ const Settings = () => {
                     <Navbar/>
                     <div className="settings-middle">
                     <MealCard1/>
+                    <MealCard2 mealPhoto={Meal} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.69 ~ 20 Bowls" />
                     </div>
                     <div className="settings-bottom">
 

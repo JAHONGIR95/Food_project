@@ -61,6 +61,7 @@
     align-items: center;
     justify-content: center;
     height: 299px;
+    cursor: pointer;
 
     .plus{
         color: #EA7C69;
@@ -74,5 +75,66 @@
         line-height: 140%;
         text-align: center;
         color: #EA7C69;
+    }
+}
+
+.meal-card2{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 221px;
+    height: 299px;
+    background: #1F1D2B;
+    border: 1px solid #393C49;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+
+    .male-photo{
+        border-radius: 50%;
+        margin-top: 22px;
+        margin-bottom: 14px;
+    }
+
+    .meal-name{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        text-align: center;
+        color: #FFFFFF;
+        width: 130px;
+        margin-bottom: 8px;
+    }
+
+    .meal-price{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+        color: #ABBBC2;
+    }
+
+    .meal-bottom{
+        background: rgba(234, 124, 105, 0.278);
+        border-radius: 0px 0px 8px 8px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        padding: 16px 0;  
+        
+        .editor{
+            margin-right: 10px;
+        }
+
+        .edition{
+            color: #EA7C69;
+        }
     }
 }
