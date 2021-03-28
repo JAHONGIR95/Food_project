@@ -1,4 +1,4 @@
-const ReportData = () => {
+const ReportData = ({ photo, customerName, menuOrder, totalPayment, process }) => {
     return(
         <div className="report-data">
             <img src={photo} alt="" className="photo"/>

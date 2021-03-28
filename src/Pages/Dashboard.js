@@ -1,11 +1,18 @@
 import Header from '../Containers/Header/Header';
 import StatisticsCard from '../Components/StatisticsCard/StatisticsCard';
+import ReportData from '../Components/ReportData/ReportData';
 
 import titleIcon1 from '../Assets/images/icons/titleIcon1.svg';
 import titleIcon2 from '../Assets/images/icons/titleIcon2.svg';
 import titleIcon3 from '../Assets/images/icons/titleIcon3.svg';
 import up from '../Assets/images/icons/up.svg';
 import down from '../Assets/images/icons/down.svg';
+
+import Customer1 from '../Assets/images/customer1.png';
+// import Customer2 from '../Assets/images/customer2.png';
+// import Customer3 from '../Assets/images/customer3.png';
+// import Customer4 from '../Assets/images/customer4.png';
+// import Customer5 from '../Assets/images/customer5.png';
 
 import './Pages.scss';
 
@@ -33,7 +40,11 @@ const Dashboard = () => {
                         <a href="javascript:void(0)" className="nav-link">Total Payment</a>
                         <a href="javascript:void(0)" className="nav-link">Status</a>
                     </div>
-                    
+
+                    <div className="customer-data">
+                        <ReportData photo={Customer1} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
+                    </div>
+
                 </div>
             </div>
             <div className="dashboard-right">
