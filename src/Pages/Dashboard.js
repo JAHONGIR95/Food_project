@@ -24,8 +24,16 @@ const Dashboard = () => {
 
                 <div className="report">
                     <div className="report-header">
-                        
+                        <Header headerName="Order Report"/>
                     </div>
+
+                    <div className="report-navbar">
+                        <a href="javascript:void(0)" className="nav-link">Customer</a>
+                        <a href="javascript:void(0)" className="nav-link">Menu</a>
+                        <a href="javascript:void(0)" className="nav-link">Total Payment</a>
+                        <a href="javascript:void(0)" className="nav-link">Status</a>
+                    </div>
+                    
                 </div>
             </div>
             <div className="dashboard-right">
