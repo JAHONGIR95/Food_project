@@ -1,6 +1,7 @@
 .booking{
     display: flex;
     flex-direction: column;
+    margin-bottom: 24px;
 
     .booking-top{
         display: flex;
@@ -65,21 +66,34 @@
         justify-content: space-between;
 
         .order-note{
+            padding: 0;
+            margin: 0;
             background: #2D303E;
             border: 1px solid #393C49;
+            box-sizing: border-box;
             border-radius: 8px;
             padding: 14px;
             resize: none;
             font-style: normal;
             font-weight: normal;
             font-size: 14px;
-            line-height: 140%;
             color: #E0E6E9;
-            width: 300px;
+            width: 342px;
+            height: 50px;
         }
 
-        .delete-button{
-            background-color: red;
+        button{
+
+            border: none;
+            outline: none;
+            background-color: transparent;
+            padding: 0;
+            margin: 0;
+
+            .delete-button{
+                background-color: transparent;
+            }
         }
+
     }
 }
