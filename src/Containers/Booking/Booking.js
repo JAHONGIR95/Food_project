@@ -1,4 +1,4 @@
-import deleteBtn from '../../Assets/images/icons/delete.svg';
+import deleteBtn from '../../Assets/images/icons/del.svg';
 
 import './Booking.scss';
 

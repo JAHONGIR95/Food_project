@@ -1,4 +1,85 @@
 .booking{
     display: flex;
     flex-direction: column;
+
+    .booking-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 14px;
+
+        .img{
+            display: block;
+            width: 41px;
+            height: 41px;
+            margin-right: 5px;
+            border-radius: 50%;
+        }
+
+        .top-data{
+            width: 210px;
+
+            .booking-name{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 130%;
+                color: #FFFFFF;
+                margin-bottom: 4px;
+            }
+
+            .booking-price{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 140%;
+                color: #ABBBC2;
+            }
+
+        }
+        .counter{
+            background: #2D303E;
+            display: block;
+            border: 1px solid #393C49;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 14px 19px;
+            color: #fff;
+        }
+
+        .total-price{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;
+            text-align: right;
+            color: #FFFFFF;
+        }
+    }
+
+    .booking-bottom{
+        display: flex;
+        justify-content: space-between;
+
+        .order-note{
+            background: #2D303E;
+            border: 1px solid #393C49;
+            border-radius: 8px;
+            padding: 14px;
+            resize: none;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 140%;
+            color: #E0E6E9;
+            width: 300px;
+        }
+
+        .delete-button{
+            background-color: red;
+        }
+    }
 }
