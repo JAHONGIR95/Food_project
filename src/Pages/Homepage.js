@@ -55,6 +55,10 @@ const Homepage = () => {
                     <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
                     <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
                     <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
+                    <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
+                    <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
+                    <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
+                    <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
                  </div>
 
                  <div className="homepage-right-bottom">
