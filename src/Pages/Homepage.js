@@ -51,9 +51,26 @@ const Homepage = () => {
                     </div>
                 </div>
                  
-                <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
-                <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
-                <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
+                 <div className="booking-area">
+                    <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
+                    <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
+                    <Booking mealImage={MealPhoto} bookingName="Spicy seasoned sea..." bookingPrice="$ 2.29" counter="2" totalPrice="$ 4,58" orderNote="Please, just a little bit spicy only."/>
+                 </div>
+
+                 <div className="homepage-right-bottom">
+                     <div className="info-wrapper">
+                        <div className="info">
+                            <p className="title">Discount</p>
+                            <p className="amount">$0</p>
+                        </div>
+
+                        <div className="info">
+                            <p className="title">Sub total</p>
+                            <p className="amount">$ 21,03</p>
+                        </div>
+                     </div>
+                     <button className="payment">Continue to Payment</button>
+                 </div>
 
             </div>
         </div>
