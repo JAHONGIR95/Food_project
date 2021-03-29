@@ -31,7 +31,7 @@ const Dashboard = () => {
 
                 <div className="report">
                     <div className="report-header">
-                        <Header headerName="Order Report"/>
+                        <h3 className="header-title">Order Report</h3>
                     </div>
 
                     <div className="report-navbar">
@@ -42,11 +42,11 @@ const Dashboard = () => {
                     </div>
 
                     <div className="customer-data">
-                    <ReportData photo={Customer1} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
-                    <ReportData photo={Customer2} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
-                    <ReportData photo={Customer3} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
-                    <ReportData photo={Customer4} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
-                    <ReportData photo={Customer5} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
+                        <ReportData photo={Customer1} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
+                        <ReportData photo={Customer2} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
+                        <ReportData photo={Customer3} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
+                        <ReportData photo={Customer4} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
+                        <ReportData photo={Customer5} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
                     </div>
 
                 </div>

@@ -285,5 +285,51 @@
             display: flex;
             justify-content: space-between;
         }
+
+        .report{
+            background: #1F1D2B;
+            border-radius: 8px;
+            padding: 24px;
+
+            .report-header{
+                margin-bottom: 16px;
+                
+                .header-title{
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 140%;
+                    color: #FFFFFF;
+                }
+            }
+
+            .report-navbar{
+                
+                display: flex;
+                border-bottom: 1px solid #393C49;
+                padding-bottom: 16px;
+                margin-bottom: 30px;
+
+                .nav-link{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 140%;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    margin-right: 100px;
+                    transition: all ease .3s;
+
+                    &:last-child{
+                        margin: 0;
+                    }
+
+                    &:hover{
+                        color: #EA7C69;
+                    }
+                }
+            }
+        }
     }
 }
