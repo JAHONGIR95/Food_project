@@ -95,3 +95,34 @@
     display: block;
     margin-right: 9px;
 }
+
+.most-ordered{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+
+    .meal-image{
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        margin-right: 18px;
+    }
+
+    .meal-name{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        color: #E0E6E9;
+        margin-bottom: 4px;
+    }
+
+    .meal-count{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 140%;
+        color: #ABBBC2;
+    }
+}

@@ -23,7 +23,7 @@ const Homepage = () => {
                 <Navbar/>
                 <div className="selection">
                     <h3 className="selection-title">Choose Dishes</h3>
-                    <Select/>
+                    <Select Theme="Dine in"/>
                 </div>
                 <div className="meal-card-section">
                     <MealCard mealPhoto={MealPhoto} mealName="Spicy seasoned seafood noodles" mealPrice="$ 2.29" mealLeft="20 Bowls available"/>
