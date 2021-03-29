@@ -12,7 +12,7 @@ import Customer1 from '../Assets/images/customer1.png';
 // import Customer2 from '../Assets/images/customer2.png';
 // import Customer3 from '../Assets/images/customer3.png';
 // import Customer4 from '../Assets/images/customer4.png';
-// import Customer5 from '../Assets/images/customer5.png';
+// import Customer5 from '../Assets/images/customer5.png';np
 
 import './Pages.scss';
 
