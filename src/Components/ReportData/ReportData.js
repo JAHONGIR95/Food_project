@@ -1,3 +1,5 @@
+import './ReportData.scss';
+
 const ReportData = ({ photo, customerName, menuOrder, totalPayment, process }) => {
     return(
         <div className="report-data">

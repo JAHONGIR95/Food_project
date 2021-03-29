@@ -1,0 +1,40 @@
+.report-data{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 24px;
+
+    .photo{
+        margin-right: 16px;
+    }
+
+    .name,
+    .menu-order,
+    .total-payment,
+    .process{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        color: #E0E6E9;
+        width: 90px;
+        margin-right: 50px;
+    }
+
+    .menu-order{
+        width: 140px;
+        margin-right: 30px;
+    }
+
+    .total-payment{
+        width: 30px;
+        margin-right: 120px;
+    }
+
+    .process{
+        color: #50D1AA;
+        padding: 4px 12px;
+        background: rgba(107, 226, 190, 0.24);
+        border-radius: 30px;
+        width: auto;
+    }
+}

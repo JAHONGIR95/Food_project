@@ -9,10 +9,10 @@ import up from '../Assets/images/icons/up.svg';
 import down from '../Assets/images/icons/down.svg';
 
 import Customer1 from '../Assets/images/customer1.png';
-// import Customer2 from '../Assets/images/customer2.png';
-// import Customer3 from '../Assets/images/customer3.png';
-// import Customer4 from '../Assets/images/customer4.png';
-// import Customer5 from '../Assets/images/customer5.png';np
+import Customer2 from '../Assets/images/customer2.png';
+import Customer3 from '../Assets/images/customer3.png';
+import Customer4 from '../Assets/images/customer4.png';
+import Customer5 from '../Assets/images/customer5.png';
 
 import './Pages.scss';
 
@@ -42,7 +42,11 @@ const Dashboard = () => {
                     </div>
 
                     <div className="customer-data">
-                        <ReportData photo={Customer1} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
+                    <ReportData photo={Customer1} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
+                    <ReportData photo={Customer2} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
+                    <ReportData photo={Customer3} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
+                    <ReportData photo={Customer4} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
+                    <ReportData photo={Customer5} customerName="Eren Jaegar" menuOrder="Spicy seasoned seafood noodles" totalPayment="$125" process="Completed"/>
                     </div>
 
                 </div>
